@@ -1,0 +1,61 @@
+body {
+  background-color: #fdf6f0;
+  color: #333333;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: #8b5e3c;
+  font-size: 40px;
+}
+
+h2 {
+  color: #44352b;
+  font-size: 26px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+button{
+  background-color: #8b5e3c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d472d;
+}
+
+.service-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section-card{
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.section-card h1{
+  font-size: 24px;
+}
